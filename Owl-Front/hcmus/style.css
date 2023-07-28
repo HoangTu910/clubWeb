@@ -1,0 +1,461 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Times new roman;
+	margin: 0;
+
+}
+.left{
+	text-align: left;
+}
+.header {
+	display: flex;
+    padding: 0;
+    background: white;
+    color: white;
+    align-items: center;
+}
+
+.logo{
+	cursor: pointer;
+	margin-right: auto;
+}
+
+li,a{
+	font-family: "Montserrat",sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+	color: #24252A;
+}
+
+
+/*
+.nav_link {
+	list-style: none;
+}
+
+.nav_link li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.nav_link li a{
+	transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover{
+	color: gray;
+}*/
+
+.header2{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+
+/*Navigation Bar*/
+.navbar {
+  display: flex;
+  background-color: #333;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.4s ease 0s;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/*Search bar*/
+.search{
+	width: 200px;
+	height: 23px;
+	background-color: white;
+	border-color: steelblue;
+	border-radius: 10px;
+}
+
+
+/*Image container*/
+
+.image-cont{
+	position: relative;
+	background-color: lightcyan;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.img{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	display: inline-block;
+	overflow: hidden;
+}
+
+
+/*transition*/
+img{
+
+	transition: all linear 0.7s;
+}
+
+img.hover-img{
+	position: absolute;
+	opacity: 0;
+}
+
+.image-cont:hover img{
+	opacity: 0;
+}
+
+.image-cont:hover img.hover-img{
+	opacity: 1;
+}
+
+/*Introduction*/
+.introduction-cont{
+	position: relative;
+	background-color: white;
+	justify-content: space-around;
+	display: flex;
+	padding-top: 60px;
+}
+
+.box-introduct{
+	text-align: center;
+	background-color: white;
+	margin: 20px;
+	padding: 30px;
+	padding-top: 1.3px;
+}
+.font{
+	font-family: Open Sans,sans-serif;
+	font-size: 29px;
+	font-weight: 500;
+	color: #333333;
+}
+
+.normal-font-intro{
+	font-family: Open Sans,sans-serif;
+	line-height: 1.42857143;
+	color: gray;
+}
+
+/*lecturer information*/
+
+.lecturer-cont {
+	justify-content: space-around;
+	margin-top: 30px;
+	padding: 10px 20px;
+	background-color: white;
+	text-align: center;
+}
+
+.box-number{
+	flex: 10;
+	text-align: center;
+	align-items: center;
+}
+
+.font-lecture{
+	font-size: 18px;
+	font-family: time new romans;
+}
+.font-lecture-num{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+/*DAO TAO*/
+.major-cont {
+	justify-content: space-around;
+	margin-top: 3px;
+	padding: 10px 20px;
+	text-align: center;
+}
+.setup-major{
+	display: flex;
+	justify-content: space-around;
+}
+.normal-font-major{
+	font-family: Open Sans,sans-serif;
+	line-height: 1.42857143;
+}
+
+.font-daotao{
+	font-family: Open Sans,sans-serif;
+	font-size: 29px;
+	font-weight: 500;
+	color: #333333;
+}
+
+.box-major{
+	display: inline-block;
+	max-width: 25%;
+	min-height: 350px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+	align-items: center;
+	background-color: steelblue;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.4s ease 0s;
+	margin-bottom: 120px;
+}
+
+
+.box-major:hover{
+	background-color: lightskyblue;
+}
+
+.in-box-major{
+	padding-top: 10px;
+	width: auto;
+	height: 150px;
+	margin-bottom: 50px;
+
+}
+
+.font-major-3{
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+
+/*NEWS*/
+.news-cont {
+	justify-content: space-around;
+	padding: 10px 20px;
+	background-image: url("https://www.hcmus.edu.vn/images/2020/04/07/bn2.jpg"),url("https://wallpapercave.com/wp/wp8596977.jpg");
+	background-size: cover;
+	text-align: center;
+	background-blend-mode: soft-light;
+}
+
+.news-contain{
+	display: flex;
+	width: 100%;
+	height: 350px;
+	justify-content: space-around;
+	margin-top: 30px;
+	padding: 10px 20px;
+	text-align: center;
+	align-items: center;
+}
+.news-box{
+	width: 20%;
+	height: 260px;
+	background-color: lightskyblue;
+}
+.font-news{
+	font-family: Open Sans,sans-serif;
+	font-size: 29px;
+	font-weight: 700;
+	color: white;
+}
+
+
+
+/*Contact*/
+.contact-cont{
+	margin-top: 85px;
+	background-color: white;
+	justify-content: space-around;
+	min-height: 400px;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 10px;
+}
+.contact-text-box{
+	background-color: white;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+.contact-box{
+	background-color: white;
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.in-contact-box{
+	background-color: floralwhite;
+	width: 30%;
+	min-height: 400px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Why*/
+.why-cont{
+	margin-top: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	height: 50px;
+}
+
+.why-box{
+	width: 50%;
+	height: 50px;
+	border-radius: 10px;
+	background-color: lightskyblue;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.why-font{
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+}
+
+/*trietlygiaoduc*/
+.sight-cont{
+	margin-top: 50px;
+	margin-bottom: 35px;
+	min-height: 300px;
+	justify-content: space-around;
+	background-color: white;
+	text-align: center;
+	align-items: center;
+}
+
+.sight-box-cont{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	min-height: 200px;
+	text-align: center;
+	background-color: white;
+	margin-bottom: 40px;
+}
+.sight-box{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 20%;
+	min-height: 220px;
+	text-align: center;
+	align-items: center;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: skyblue;
+}
+.font-sight{
+	font-size: 18px;
+	font-weight: bold;
+}
+.font-sight-2{
+	line-height: 1.4;
+}
+
+/*environment*/
+.env-cont{
+	min-height: 200px;
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 190px;
+	padding-right: 190px;
+	align-items: center;
+	justify-content: center;
+}
+.env-font{
+	color: gray;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+/*footer*/
+.footer-container{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	background-color: steelblue;
+	height: 100px;
+}
+
+.foot-box-cont{
+
+	width: 60%;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.foot-font{
+	color: white;
+	font-size: 15px;
+}
+
+@media (max-width: 1150px) {
+	.header{
+		display: inline-flex;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+	}
+	.navbar{
+		width: 100%;
+		display: inline-flex;
+		flex-direction: column;
+	}
+	.search{
+		display: none;
+	}
+	.introduction-cont{
+		display: inline-flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+	.major-cont{
+		width: 100%;
+		background-color: aqua;
+	}
+	.setup-major{
+		background-color: yellow;
+		width: 100%;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.box-major{
+		background-color: red;
+		width: 600px;
+	}
+}
